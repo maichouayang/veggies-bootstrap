@@ -1,0 +1,67 @@
+html {
+    position: relative;
+    min-height: 100%
+}
+
+body {
+    padding-top: 50px;
+    background-image: url(images/tartan.png);
+    background-color: #A2C0A7;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #222222;
+    color: #9d9d9d;
+    text-align: center;
+    padding: 15px;
+}
+
+#main {
+    background-color: #FBE7D4;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-bottom: 15px;
+}
+
+footer {
+    color: #CEAEBF;
+    background-color: #5E2241;
+}
+
+.navbar-inverse {
+    background-color: #5E2241;
+    border-color: #5E2241;
+}
+
+.navbar-inverse .navbra-brand {
+    color: #CEAEBF;
+}
+
+.navbar-inverse .btn {
+    background-color: #CEAEBF;
+    color: #5E2241;
+}
+
+.jumbotron {
+    margin-top: 15px;
+    padding-bottom: 25px;
+    color: #000000;
+    text-align: center;
+    text-shadow: #FBE7D4 3px 3px 4px;
+    background-image: url(images/veggies-background.jpg);
+    background-size: cover;
+}
+
+.jumbotron small {
+    color: #1F5829;
+}
+
+.jumbotron p {
+    font-size: 1.3em;
+    font-weight: bold;
+}
